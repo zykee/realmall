@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOME</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Lavaggio Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.useso.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.11.0.min.js"></script>
+<!---- start-smooth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---end-smooth-scrolling-->
+<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+<!--End-top-nav-script-->
+</head>
+<body>
+	<!--start-header-->
+					<div class="header" id="home">
+						<div class="container">
+							<div class="logo">
+								<a href="index.html"><img src="images/logo.png" alt=""></a>  
+							</div>
+							<!--start-top-nav-->
+							 <nav class="top-nav">
+								<ul class="top-nav">
+									<li><a href="index.html" class="active">Home</a></li>&nbsp;/
+									<li><a href="about-us.html">About Us</a></li>&nbsp;/
+									<li><a href="about-us.html">Profile</a></li>&nbsp;/
+									<li><a href="services.html">Services</a></li>&nbsp;/
+									<li><a href="clients.html">Clients</a></li>&nbsp;/
+									<li><a href="404.html">Careers</a></li>&nbsp;/
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+								<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+							</nav>
+							<div class="clearfix"> </div>
+						</div>
+				</div>
+		<!--End-header-->	
+		<!--start-search-->
+			<div class="search">
+				<div class="container">
+					<div class="search-main">
+						<ul>
+							<li>
+								<div class="login">
+									<a href="login.html">Login</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="register.html">Register</a>
+								</div>
+							</li>	
+							<li>
+								<div class="search-top">
+									<input type="text"  value="" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '';}">
+									<input type="submit" value="Search">
+								</div>
+							</li>
+						</ul>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		<!--End-search-->	
+		<!--start-banner-->	
+		<div class="banner">
+			<div class="container">
+				<div class="banner-top">
+					<h2>-Welcome To-</h2>
+					<h1>Lorem ipsum dolor sit amet</h1>
+				</div>
+				<div class="banner-bottom">
+					<div  id="top" class="callbacks_container">
+			      		<ul class="rslides" id="slider4">
+			        	<li>
+							<img src="images/banner-1.jpg" alt="" />
+						</li>
+						<li>
+							<img src="images/banner-2.jpg" alt="" />
+						</li>
+						<li>
+							<img src="images/banner-3.jpg" alt="" />
+						</li>
+						<li>
+							<img src="images/banner-4.jpg" alt="" />
+						</li>
+						<li>
+							<img src="images/banner-5.jpg" alt="" />
+						</li>
+			      		</ul>
+			    	</div>
+			    <div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!--End-banner-->
+		<!--Slider-Starts-Here-->
+				<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--End-slider-script-->	
+            <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+	<!--start-lorem-->
+	<div class="lorem">
+		<div class="container">
+			<div class="lorem-main">
+				<div class="lorem-left">
+					<img src="images/i.png" alt="">
+				</div>
+				<div class="lorem-right">
+					<h3>Lorem ipsum dolor sit amet neredmet ongole sufilguda.</h3>
+					<p>Donec commodo mauris in nunc scelerisque non viverra nibh suscipit ivamus eget elit at mi euismod facilisis sed.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="lorem-top">
+				<div class="col-md-4 lorem-top-one">
+					<div class="lorem-top-left">
+						<h3>Short About Us</h3>
+						<img src="images/abt.jpg" alt="">
+						<h4>United IT Solutions Inc,</h4>
+						<p>was created with an aim of providing quality services and developing Applications and solutions in the area of information technology catering to.</p>
+						<div class="tool">
+							<a class="tooltips" href="single.html">
+								<span>Read More</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 lorem-top-one">
+					<div class="lorem-top-left">
+						<h3>Our Services</h3>
+						<img src="images/svr.jpg" alt="">
+						<h4>United IT Solutions Inc,</h4>
+						<p>was created with an aim of providing quality services and developing Applications and solutions in the area of information technology catering to.</p>
+						<div class="tool">
+							<a class="tooltips" href="single.html">
+								<span>Read More</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 lorem-top-one">
+					<div class="lorem-top-left">
+						<h3>Our Support</h3>
+						<img src="images/sup.jpg" alt="">
+						<h4>United IT Solutions Inc,</h4>
+						<p>was created with an aim of providing quality services and developing Applications and solutions in the area of information technology catering to.</p>
+						<div class="tool">
+							<a class="tooltips" href="single.html">
+								<span>Read More</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="lorem-middle">
+				<div class="lorem-middle-top">
+					<h3>Lorem ipsum dolor sit amet neredmet ongole sufilguda.</h3>
+					<p>Donec commodo mauris in nunc scelerisque non viverra nibh suscipit ivamus eget elit at mi euismod facilisis sed.</p>
+				</div>
+				<div class="lorem-middle-bottom">
+					<div class="col-md-6 lorem-middle-left">
+						<h4>United IT Solutions Inc,</h4>
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean molestie lobortis felis, vestibulum egestas dolor sagittis nec. Mauris ultricies dignissim. <a href="single.html">/ more info /</a></p>
+					</div>
+					<div class="col-md-6 lorem-middle-left">
+						<h4>United IT Solutions Inc,</h4>
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean molestie lobortis felis, vestibulum egestas dolor sagittis nec. Mauris ultricies dignissim. <a href="single.html">/ more info /</a></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="lorem-bottom">
+				<div class="lorem-bottom-top">
+					<h3>Lorem ipsum dolor sit amet neredmet ongole sufilguda.</h3>
+					<p>Donec commodo mauris in nunc scelerisque non viverra nibh suscipit ivamus eget elit at mi euismod facilisis sed.</p>
+				</div>
+				<div class="lorem-bottom-btm">
+					<h4>United IT Solutions Inc,</h4>
+					<p>Donec fringilla odio ut nunc lacinia sollicitudin eu id nulla. Ut vestibulum auctor odio ac lobortis. Pellentesque ac neque sed enim pulvinar tempus. Pellentesque et metus ut dolor egestas semper vel eu nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Donec consectetur, justo venenatis vulputate convallis, turpis velit egestas eros, nec molestie tellus dui nec nulla.</p>
+					<div class="tool btm-tool">
+							<a class="tooltips btm-tooltips" href="#">
+							<span>Read More</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!--End-lorem-->
+	<!--start-footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-main">
+				<div class="col-md-8 footer-left">
+					<ul>
+						<li><a href="index.html" class="active">Home</a></li>&nbsp;/
+						<li><a href="about-us.html">About Us</a></li>&nbsp;/
+						<li><a href="about-us.html">Profile</a></li>&nbsp;/
+						<li><a href="services.html">Services</a></li>&nbsp;/
+						<li><a href="clients.html">Clients</a></li>&nbsp;/
+						<li><a href="404.html">Careers</a></li>&nbsp;/
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+					<p>Copyright &copy; 2015.Company name All rights reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+				</div>
+				<div class="col-md-2 footer-middle">
+					<h3>Contact Us</h3>
+					<p><a href="mailto:example@email.com">info@template.com</a></p>
+				</div>
+				<div class="col-md-2 footer-right">
+					<h3>Follow Us On...</h3>
+					<ul>
+						<li><a href="#"><span class="twit"> </span></a></li>
+						<li><a href="#"><span class="fb"> </span></a></li>
+						<li><a href="#"><span class="in"> </span></a></li>
+						<li><a href="#"><span class="o"> </span></a></li>
+						<li><a href="#"><span class="v"> </span></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	</div>
+	<!--End-footer-->			
+</body>
+</html>
